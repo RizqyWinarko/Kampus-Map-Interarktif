@@ -10,10 +10,10 @@ router.get('/cari_kampus', kampusController.search);
 // CREATE
 router.post('/add_kampus', kampusController.add);
 
-// 🔥 UPDATE
+// UPDATE
 router.put('/update_kampus/:id', kampusController.update);
 
-// 🔥 DELETE
+// DELETE
 router.delete('/delete_kampus/:id', kampusController.remove);
 
 module.exports = router;
